@@ -1,4 +1,4 @@
- 
+
 
 /**
  * LLMToggle component allows users to toggle the use of an LLM engine for additional inference results.
@@ -6,9 +6,11 @@
  *
  * @returns {JSX.Element} The rendered component.
  */
-export default function CompleteIncomplete() {
+export default function CompleteIncomplete({ active }: { active: any }) {
 
-  return <div display={'flex'} gap={1} >
-    d
+  console.log('active', active)
+
+  return <div  >
+   {active ? 'Complete' : 'Incomplete'}
   </div>
 }

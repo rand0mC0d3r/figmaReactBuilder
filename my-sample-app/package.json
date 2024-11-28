@@ -1,5 +1,5 @@
 {
-  "name": "figmatest",
+  "name": "my-sample-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@builder.io/dev-tools": "^1.1.39",
+    "@builder.io/dev-tools": "^1.1.41",
     "@builder.io/react": "^7.0.1",
     "@builder.io/sdk": "^5.0.0",
     "react": "^18.3.1",
@@ -20,7 +20,7 @@
     "@eslint/js": "^9.15.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
-    "@vitejs/plugin-react-swc": "^3.7.2",
+    "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^9.15.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",

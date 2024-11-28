@@ -1,5 +1,5 @@
 import { figmaMapping, type BaseFigmaProps } from "@builder.io/dev-tools/figma";
-import CompleteIncomplete from "~/components/CompleteIncomplete";
+import CompleteIncomplete from "../components/CompleteIncomplete";
 
 // ❖ CompleteIncomplete
 interface FigmaCompleteIncompleteProps extends BaseFigmaProps {
@@ -10,7 +10,6 @@ interface FigmaCompleteIncompleteProps extends BaseFigmaProps {
 figmaMapping({
   componentKey: "f9d1de00bbfdf9605e4ade1213ca20ec979af693",
   mapper(figma: FigmaCompleteIncompleteProps) {
-    console.log(figma);
-    return <CompleteIncomplete />;
+    return <CompleteIncomplete active={figma.CompleteStatus} />;
   },
 });
